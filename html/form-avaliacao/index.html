@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Avaliação</title>
+  </head>
+  <body>
+    <header>
+      <h1>Formulário de Avaliação</h1>
+      <p>Tem esse produto? Seja o primeiro a avaliá-lo</p>
+    </header>
+    <hr />
+    <main>
+      <form action="#" method="post">
+        <div>
+          <label for="name"> Digite seu Nome </label>
+          <input type="text" id="name" name="name" placeholder="Digite Aqui" />
+          <br />
+        </div>
+        <div>
+          <p>Uma nota para este produto</p>
+          <input type="radio" name="avaliacao" value="ruim" /> Ruim <br />
+          <input type="radio" name="avaliacao" value="bom" /> Bom <br />
+          <input type="radio" name="avaliacao" value="perfeito" />
+          Perfeito<br />
+        </div>
+        <div>
+          <p>Sua avaliação do produto</p>
+          <textarea
+            placeholder="Descreva Aqui"
+            name="text"
+            rows="4"
+            cols="30"
+          ></textarea>
+        </div>
+        <div>
+          <label>
+            <p>Você recomendaria esse produto a um amigo?</p>
+            <input type="radio" name="recomendacao" value="sim" /> Sim <br />
+            <input type="radio" name="recomendacao" value="não" /> Não <br />
+          </label>
+        </div>
+        <div>
+          <label>
+            <p>Sexo</p>
+            <input type="radio" name="sexo" value="feminino" /> Feminino <br />
+            <input type="radio" name="sexo" value="masculino" /> Masculino
+            <br />
+          </label>
+        </div>
+        <div>
+          <label>
+            <p>Idade</p>
+            <input type="radio" name="idade" value="ateVinte" /> Até 20 anos
+            <br />
+            <input type="radio" name="idade" value="entreVinteQuarenta" /> 20 a
+            40 anos <br />
+            <input type="radio" name="idade" value="entreQuarentaSessenta" /> 40
+            a 60 anos <br />
+            <input type="radio" name="idade" value="maiorSessenta" /> Acima de
+            60 anos
+          </label>
+        </div>
+        <br />
+        <br />
+        <div>
+          <label for="file">Fotos do produto</label> <br />
+          <br />
+          <input id="file" type="file" multiple />
+        </div>
+        <br />
+        <br />
+        <br />
+        <div>
+          <label for="submit"> </label>
+          <input type="submit" id="submit" name="submit" value="Enviar" />
+        </div>
+      </form>
+    </main>
+    <footer><p>&copy;Júlia Bassul-2021</p></footer>
+  </body>
+</html>
