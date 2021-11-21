@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,12 +7,33 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Contato</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit dolorem
-      esse adipisci non provident est blanditiis dolor, porro, inventore
-      delectus, officia recusandae? Rerum officia molestias neque? Et quam
-      debitis incidunt.a
-    </p>
+    <header><h1>Contato</h1></header>
+    <main>
+      <form action="#" method="post">
+        <div>
+          <label for="contact">Seu nome:</label>
+          <input type="text" id="contact" name="contact" />
+        </div>
+        <br />
+        <div>
+          <label for="email">Seu e-mail:</label>
+          <input type="email" name="email" id="email" />
+        </div>
+        <br />
+        <div>
+          <label for="subject">Assunto:</label>
+          <input type="text" name="subject" id="subject" />
+        </div>
+        <br />
+        <div>
+          <textarea cols="50" rows="10">Descreva sua mensagem aqui</textarea>
+        </div>
+        <div>
+          <label for="submit"></label>
+          <input type="submit" id="submit" name="submit" value="Enviar" />
+          <br />
+        </div>
+      </form>
+    </main>
   </body>
 </html>
