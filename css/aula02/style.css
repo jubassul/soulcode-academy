@@ -1,0 +1,47 @@
+/*reset básico, essencial para retirar da página */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/*google fonts- não é a melhor forma de se fazer 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;1,100&display=swap'); */
+body {
+  /*cursive, serif, monospace */
+  font-family: "Montserrat";
+}
+hr {
+  border: 0;
+  height: 2px;
+  background-color: grey;
+}
+.paragrafo-1 {
+text-decoration: line-through; /* linha riscada do exercicio */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px; /* existe o em e o rem */
+  text-align: justify; /*center,right,justify-para posicionar o texto */
+  /* font-style: italic, oblique or normal */
+  font-weight: 600px; /*peso da fonte, o bold é o negrito */ /*o 400 é o peso normal */
+  color: red;
+  line-height: 40px; /*linhas ficam separadas uma das outras */
+}
+h2 {
+  text-align: center;
+}
+a {
+  text-decoration: none; /*sem a linha de baixo */
+  /*text-decoration: overline;  a linha em cima 
+text-decoration: underline;  com a linha, padrão normal do link */
+  text-transform: lowercase; /*lowecase,uppercase, capitalize */
+}
+#box {
+  height: 200px;
+  width: 300px;
+  background-color: rgb(38, 19, 124);
+  padding: 30px 100px;
+  margin: 20px;
+}
+/*rgba
+-red
+-green
+-blue */

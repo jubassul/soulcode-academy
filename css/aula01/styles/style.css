@@ -1,0 +1,61 @@
+*{
+  margin:0px
+}
+
+body {
+  font-family: "Calibri";
+  background-color: ivory;
+}
+/*seletor elemento*/
+h2 {
+  color: blueviolet;
+  font-size: 40px;
+}
+/* seletor: id
+#paragraph-1{
+color: green;
+background-color: turquoise;
+}
+*/
+.paragrahps {
+  color: green;
+  background-color: turquoise;
+}
+.my-button {
+  background-color: violet;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  width: 200px;
+}
+.submit-button {
+  background-color: hotpink;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  width: 200px;
+  margin-top: 50px;
+}
+.list {
+color: palevioletred;
+font-weight: bold;
+}
+/*
+#exemplo-seletor h3{
+background-color: pink;
+} */
+
+h3 + span{
+color: red;
+}
+/* seletor-
+todo h2 que estiver dentro da section ficará com a color BLUE
+section h2{
+color:blue; 
+} /*
+
+/* não entendi */
+
+/* section > h2{
+color: red;
+} /*
