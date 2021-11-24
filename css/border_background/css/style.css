@@ -1,0 +1,15 @@
+.title {
+  background-color: rgb(69, 5, 71);
+  color: white;
+  opacity: 0.2;
+}
+.myDiv {
+  background-image: url(../img/imagem03.jpg);
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  /*propriedades de background para posicionar/diminuir tamanho */
+  background-attachment:fixed;
+  background-size:500px ;
+  background-position: center;
+
+}

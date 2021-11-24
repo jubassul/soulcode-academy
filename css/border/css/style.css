@@ -1,0 +1,134 @@
+.x1 {
+    border-style: dotted;
+}
+
+.x2 {
+    border-style: dashed;
+}
+
+.x3 {
+    border-style: solid;
+}
+
+.x4 {
+    border-style: double;
+}
+
+.x5 {
+    border-style: groove;
+}
+
+.x6 {
+    border-style: ridge;
+}
+
+.x7 {
+    border-style: inset;
+}
+
+.x8 {
+    border-style: outset;
+}
+
+.x9 {
+    border-style: none;
+    /*não existe a borda */
+}
+
+.x10 {
+    border-style: hidden;
+    /* existe a borda, mas o usuário não vê */
+}
+
+.um {
+    border-style: solid;
+    border-width: 5px;
+    /*largura da borda */
+}
+
+.dois {
+    border-style: dashed;
+    border-width: 5px;
+}
+
+.tres {
+    border-style: dotted;
+    border-width: medium;
+}
+
+.quatro {
+    border-style: groove;
+    border-width: thick;
+    /*borda grande */
+}
+
+.cinco {
+    border-style: solid;
+    border-width: 20px 5px;
+}
+
+.seis {
+    border-style: dashed;
+    border-width: 25px 2px;
+}
+
+.sete {
+    border-style: solid;
+    border-width: 25px 10px 4px 35px;
+}
+
+.oito {
+    border-style: dotted solid double dashed;
+}
+
+.nove {
+    border-style: dotted solid double;
+}
+
+.dez {
+    border-style: dotted solid;
+}
+
+.onze {
+    border-style: solid;
+}
+
+.doze {
+    border-left: 6px solid red;
+    background-color: lightblue;
+}
+
+.treze {
+    border-top: 6px solid red;
+    background-color: royalblue;
+}
+
+.ex {
+    border: 2px solid red;
+    padding: 5px;
+}
+
+.ey {
+    border: 2px solid red;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.ez {
+    border: 2px dashed blue;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.ew {
+    border: 2px dotted green;
+    padding: 5px;
+    border-radius: 12px;
+}
+
+.div1 {
+    width: 400px;
+    height: 400px;
+    border: 2px solid green;
+    border-radius: 12px;
+}
