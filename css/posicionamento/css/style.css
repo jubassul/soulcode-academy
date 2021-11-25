@@ -1,0 +1,22 @@
+ .relative {
+     position: relative;
+     left: 40px;
+     top: 20px;
+     width: 200px;
+ }
+
+ .absolute {
+     position: absolute;
+     top: 0px;
+     right: 0px;
+     width: 200px;
+ }
+
+ img {
+     width: 200px;
+ }
+
+ .container-img {
+     position: fixed;
+     bottom: 0;
+ }
