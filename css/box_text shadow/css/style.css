@@ -1,0 +1,31 @@
+/*utilidade: evitar algo inesperado, mantém também o comportamento da borda, pois quando não usamos ele, a borda acaba aumentando o tamanho da imagem */
+*{
+    box-sizing: border-box;
+}
+/*resetando pelo body o margin:0 */
+body, p{
+margin:0;
+}
+#box01{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    /*usando o margin: 0 auto eu centralizo as coisas, mas eu preciso ter
+    altura (height) e largura (width) */
+   margin: 0 auto;
+   /*box-shadow: fazendo sombras */
+   box-shadow: -15px -15px  black, 10px 10px 10px hotpink;
+}
+/*div filha */
+
+#box02{
+width: 200px;
+height: 200px; 
+background-color: yellow;
+margin: 0 auto;
+box-shadow: inset 15px 15px 15px 10px red, 10px 10px 5px orange, inset -10px -10px;
+} 
+#p1{
+    text-shadow: 1px 1px 10px red;
+    font-size: 32px;
+}

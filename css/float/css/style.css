@@ -1,0 +1,47 @@
+/*
+.box {
+    width: 200px;
+    height: 200px;
+    border: 2px solid blue;
+    border-radius: 7px;
+    background-color: aquamarine;
+    float: none;
+
+}
+
+img{
+    border: 2px solid orangered;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.container {
+    float: none;
+
+} */
+*{
+box-sizing: border-box;
+} 
+.box01{
+float: left;
+width: 33.33%;
+padding: 50px;
+background-color: #768907;
+}
+.box02{
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    background-color: #5789; 
+}
+.box03{
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    background-color: pink; 
+}
+.clearfix::after{ /* ::after- isso vai ocorrer depois que tudo acima flutar */
+content: ""; /*padrão em branco, leva em consideração tudo que vem depois */
+clear: both; /*limpeza de flutuar, setar um novo padrão de comportamento, o both diz quem vai obedecer a essa regra, no caso tudo mundo tem que receber a regra do display table */
+display: table; /*transforma o conteúdo em uma espécie de tabelas, como eu tenho tre imagens, foi construido tres tabelas*/
+}
