@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.grid-1{
+   
+    /*aciona o display grid */
+    display: grid;
+    /*defindo o número de colunas para minha grid */
+    /*grid-template-columns: 1fr 1fr; são duas colunas que você coloca e
+    ocupa todo o espaço da tela, em fez de usar px, pois em px não ocupa o restante do espaço que está sobrando */
+    grid-template-columns: repeat(3,1fr); /* 3 colunas que ocupem o espaço todo */
+    gap:10px; /*espaço entre a grid, para não usar margin */
+    /*grid-template-columns: minmax(100px, 200px) 1fr; a primeira coluna vai de 100px a 200px e a segunda é 1fr, ocupando todo espço da tela  */
+    grid-template-rows: 100px 1fr; /*linha */
+    row-gap: 5px;
+    column-gap: 5px;
+    background-color: red;
+}
+.item {
+    background: royalblue;
+    color: white;
+  	border: 1px dashed white;
+      display: flex;
+      justify-content: center;
+       align-items: center; 
+}
+/*PART 02 */
+.grid-2{
+display: grid;
+height: 100vh;
+/*grid-template-areas: 
+"head head" 
+"side cont" 
+"side foot"; */
+grid-template:
+"head head" 64px
+"side cont" 1fr
+"side foot" 48px
+/ 200px 1fr;
+}
+
+
+/*colocando nome para cada area com grid-area */
+.grid-2 header{
+background-color: yellow;
+grid-area: head;
+}
+.grid-2 aside{
+background-color: royalblue;
+grid-area: side;
+}
+.grid-2 main{
+background-color: red;
+grid-area: cont;
+}
+        
+.grid-2 footer{
+background-color: pink;
+grid-area: foot;
+}
