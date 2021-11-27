@@ -45,7 +45,6 @@ img {
 
 .recipe {
   width: 700px;
-  height: 700;
   background-color: #fffeec;
   border-radius: 50px;
   margin: 50px;
@@ -88,14 +87,17 @@ p {
 #linkTudoGostoso {
   text-decoration: underline;
 }
-.icons-img{
-width: 30px;
-height: 30px;
+
+.icons-img {
+  width: 30px;
+  height: 30px;
 }
-.icons{
-position: fixed;
-bottom:0;
+
+.icons {
+  position: fixed;
+  bottom: 0;
 }
+
 footer {
   display: flex;
   justify-content: center;
