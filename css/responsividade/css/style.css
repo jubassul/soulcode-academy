@@ -1,0 +1,39 @@
+/*responsividade */
+/*quando chegar em 600px a cor do background irá mudar para red 
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: red;
+  }
+}
+*/
+* {
+  box-sizing: border-box;
+}
+
+.left {
+  background: lightblue;
+  padding: 20px;
+  float: left;
+  width: 20%;
+}
+
+.main {
+  background-color: aqua;
+  padding: 20px;
+  float: left;
+  width: 60%;
+}
+.right {
+  background-color: red;
+  padding: 20px;
+  float: left;
+  width: 20%;
+}
+/*essa é a  forma de responsividade usando o float */
+@media screen and (max-width: 800px) {
+  .left,
+  .main,
+  .right {
+    width: 100%;
+  }
+}

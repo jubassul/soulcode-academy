@@ -19,30 +19,31 @@ img{
     float: none;
 
 } */
-*{
-box-sizing: border-box;
-} 
-.box01{
-float: left;
-width: 33.33%;
-padding: 50px;
-background-color: #768907;
+* {
+  box-sizing: border-box;
 }
-.box02{
-    float: left;
-    width: 33.33%;
-    padding: 50px;
-    background-color: #5789; 
+.box01 {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  background-color: #768907;
 }
-.box03{
-    float: left;
-    width: 33.33%;
-    padding: 50px;
-    background-color: pink; 
+.box02 {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  background-color: #5789;
+}
+.box03 {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  background-color: pink;
 }
 
-.clearfix::after { /* ::after- isso vai ocorrer depois que tudo acima flutar */
-content: ""; /*padrão em branco, leva em consideração tudo que vem depois */
-clear: both; /*limpeza de flutuar, setar um novo padrão de comportamento, o both diz quem vai obedecer a essa regra, no caso tudo mundo tem que receber a regra do display table */
-display: table; /*transforma o conteúdo em uma espécie de tabelas, como eu tenho tre imagens, foi construido tres tabelas*/
-} 
+.clearfix::after {
+  /* ::after- isso vai ocorrer depois que tudo acima flutar */
+  content: ""; /*padrão em branco, leva em consideração tudo que vem depois */
+  clear: both; /*limpeza de flutuar, setar um novo padrão de comportamento, o both diz quem vai obedecer a essa regra, no caso tudo mundo tem que receber a regra do display table */
+  display: table; /*transforma o conteúdo em uma espécie de tabelas, como eu tenho tre imagens, foi construido tres tabelas*/
+}
